@@ -1,3 +1,30 @@
 body{
     background-color:black;
 }
+
+
+.doom{
+    color: purple;
+}
+
+
+a{
+    text-decoration: none;
+    color: Black;
+    transition: 0.5s;
+
+}
+
+button{
+    margin-left: 580px;
+    margin-top: 500;
+    letter-spacing: 0.1em;
+    width: 100px;
+    padding: px;
+    height: 40px;
+    border-radius: 50px;
+}
+
+a:hover{
+    letter-spacing: 0.25em
+}
