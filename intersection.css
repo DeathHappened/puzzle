@@ -1,0 +1,16 @@
+body{
+    background-color: black;
+}
+
+@keyframes ask{
+    0%{opacity: 0;}
+    100%{opacity: 1;}
+}
+
+p{
+    font-size: 40px;
+    margin-left: 395px;
+    margin-top: 350px;
+    animation: ask 8s;
+    color: white;
+}
