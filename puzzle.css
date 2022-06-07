@@ -1,0 +1,26 @@
+body{
+    background-color:black;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.Yes{
+    display: inline-block;
+    margin-top: 70px;
+    margin-left: 490px;
+}
+
+.No{
+    margin-top: 2px;
+    margin-left: 10px;
+}
+
+p{
+    color: white;
+    font-size: 30px;
+    margin-top: 300px;
+    margin-left: 520px;
+}
