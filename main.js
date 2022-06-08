@@ -17,7 +17,7 @@ function change() {
             if (i >= text.length) {
                 //timeout for the last element
                 setTimeout(function() {
-                    window.location.href = "notpuzzle.html";
+                    window.location.href = "xTIYn65AE0P5n8u9o9Wx.html";
                 }, 3000);
             }
         }
