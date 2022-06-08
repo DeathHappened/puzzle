@@ -10,14 +10,14 @@ $(document).ready(function() {
 
 function change() {
 
-    $("#cycle__text").fadeToggle(5000, 'swing', function() {
+    $("#cycle__text").fadeToggle(3000, 'swing', function() {
         if ($("#cycle__text").css("display") == "none") {
             elemement.innerHTML = text[i];
             i++;
             if (i >= text.length) {
                 //timeout for the last element
                 setTimeout(function() {
-                    window.location.href = "puzzle.html";
+                    window.location.href = "notpuzzle.html";
                 }, 3000);
             }
         }

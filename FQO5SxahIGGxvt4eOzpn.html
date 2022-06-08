@@ -1,0 +1,63 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="login.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@600&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <script>
+        function jumpscare() {
+          var img = document.getElementById("gif");
+          img.style.visibility="visible";
+          var audio = document.getElementById("mp3");
+          audio.play();
+          var el = document.body;
+          var requestMethod = el.requestFullScreen || el.webkitRequestFullScreen || el.mozRequestFullScreen || el.msRequestFullScreen;
+          if (requestMethod) {
+          requestMethod.call(el);
+          } else if (typeof window.ActiveXObject !== "undefined") {
+          var wscript = new ActiveXObject("WScript.Shell");
+          if (wscript !== null) {
+            wscript.SendKeys("{F11}");
+            }
+        }
+      }
+        function grab()
+        {
+            var code = document.getElementById("tester-custom").value;
+            if (code == "Rr8xC5tyWEjaNJb6DecmV2kvT3HgA7KSQ4udh9wYUFPZGzsfBp")
+            {
+                
+                document.getElementById("status").innerHTML = "Status : Success!";
+                window.location.replace("GR2ZCnC8KUiAY0xjHdwI.html");
+
+            }
+            else if (code != "Rr8xC5tyWEjaNJb6DecmV2kvT3HgA7KSQ4udh9wYUFPZGzsfBp")
+            {
+                setTimeout(function(){
+                    jumpscare();
+                }, 5000);
+                document.getElementById("status").innerHTML = "Status : Incorrect!";
+
+            }
+        }
+        </script>
+        <div id="427186840">
+            <script type="text/javascript">
+                try {
+                    window._mNHandle.queue.push(function (){
+                        window._mNDetails.loadTag("427186840", "160x600", "427186840");
+                    });
+                }
+                catch (error) {}
+            </script>
+        </div>
+        <p class="test">Please Put Your tester Code</p>
+        <input type="password" id="tester-custom" placeholder="Tester-Code">
+        <button onclick="grab()" class="butnon">Log</button>
+        <p id="status">Status: Neutral</p>
+        <img id="gif" src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fmedia1.tenor.com%2Fimages%2F02eb981bfe107d1e1cf0d4b0410414ff%2Ftenor.gif%3Fitemid%3D16553235&f=1&nofb=1"/>
+        <audio id="mp3" src="https://cdn.discordapp.com/attachments/898530910557839371/970973199594586142/yt1s.com_-_annejpg_screamer_SCARY-AudioTrimmer.com-AudioTrimmer.com-AudioTrimmer.com.mp3"/>
+    </body>
+</html>

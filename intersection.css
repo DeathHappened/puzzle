@@ -7,10 +7,16 @@ body{
     100%{opacity: 1;}
 }
 
-p{
+.ok{
     font-size: 40px;
     margin-left: 395px;
     margin-top: 350px;
     animation: ask 8s;
     color: white;
+}
+
+.note{
+    margin-bottom: 350px;
+    color: white;
+    font-size: 12px;
 }

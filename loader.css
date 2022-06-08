@@ -17,7 +17,7 @@ a{
 
 button{
     margin-left: 580px;
-    margin-top: 500;
+    margin-top: 30;
     letter-spacing: 0.1em;
     width: 100px;
     padding: px;
@@ -27,4 +27,11 @@ button{
 
 a:hover{
     letter-spacing: 0.25em
+}
+
+
+.note{
+    margin-bottom: 350px;
+    color: white;
+    font-size: 12px;
 }
